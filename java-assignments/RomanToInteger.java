@@ -24,12 +24,13 @@ public class RomanToInteger {
                 result += romanMap.get(roman.charAt(i));
             }
         }
+        System.out.println(" " + romanMap.get('C'));
 
         return result;
     }
 
     public static void main(String[] args) {
-        String romanNumeral = "Ix";
+        String romanNumeral = "IX";
         int integerEquivalent = romanToInteger(romanNumeral);
         System.out.println("Integer equivalent of " + romanNumeral.toUpperCase() + " is " + integerEquivalent);
     }
