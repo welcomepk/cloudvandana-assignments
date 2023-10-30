@@ -29,8 +29,6 @@ function reverseWord(word) {
     return reversedWord
 }
 
-
-
 function reverseWords(sentance) {
     const words = splitSentance(sentance)
     const reversed = []
