@@ -10,7 +10,6 @@ public class ShuffleArray {
             arr[i] = arr[randomIndex];
             arr[randomIndex] = tmp;
         }
-        // dsf
     }
 
     public static void main(String[] args) {
