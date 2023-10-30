@@ -24,8 +24,6 @@ public class RomanToInteger {
                 result += romanMap.get(roman.charAt(i));
             }
         }
-        System.out.println(" " + romanMap.get('C'));
-
         return result;
     }
 
