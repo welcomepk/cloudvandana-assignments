@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@500&family=Roboto+Condensed:wght@300;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="surveyForm">
+            <div class="row">
+                <div class="input">
+                    <label for="firstname">Firstname</label>
+                    <input name="firstname" required type="text" placeholder="Enter firstname">
+                </div>
+                <div class="input">
+                    <label for="lastname">Lastname</label>
+                    <input name="lastname" type="text" placeholder="Enter lastname">
+                </div>
+            </div>
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter email" />
+            </div>
+            <div class="input">
+                <label for="dob">Date of birth</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <div class="input">
+                <label>Gender</label>
+                <div>
+                    <label>
+                        <input type="radio" name="gender" id="gender" value="male" />
+                        Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" id="gender" value="female" />
+                        Female
+                    </label>
+                </div>
+            </div>
+
+            <div class="input">
+                <label for="profession">Profession</label>
+                <input name="profession" type="text" placeholder="Enter profession">
+            </div>
+            <div class="input">
+                <label for="phone">Mobile number</label>
+                <input type="number" name="phone" type="text" placeholder="Enter mobile number">
+            </div>
+            <div class="input">
+                <label for="country">Mobile number</label>
+                <select name="country" id="country" required>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </div>
+            <div class="input">
+                <label for="suggetion">Do you have suggetion to improve our service?</label>
+                <textarea name="suggetion" id="suggetion" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="cta">
+                <button type="submit">Submit</button>
+                <button type="button" id="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>
