@@ -54,4 +54,3 @@ form.onsubmit = (e) => {
 resetBtn.addEventListener('click', () => {
     resetForm();
 })
-

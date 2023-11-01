@@ -17,8 +17,9 @@ body {
   padding: 0 1rem;
 }
 form {
+  margin: 2rem 0;
   border: 1px solid #aaa;
-  padding: 1rem;
+  padding: 2rem;
   display: grid;
   gap: 1rem;
 }
